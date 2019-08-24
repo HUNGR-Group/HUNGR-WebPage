@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function initialContent() {
   return (
@@ -24,15 +25,28 @@ function initialContent() {
   );
 }
 
-// <img src=".src/assets/logo.jpg"></img>
-
-function App() {
+function Header() {
   return (
     <div class="content">
       <header className="header">
-                
+        <img class="logo" src="https://avatars3.githubusercontent.com/u/54478309?s=400&u=85f013094cb596b74805e716edb071df0a064f7e&v=4"></img>
       </header>
+      <div class="places">
+        
+      </div>
     </div>
+  );
+}
+
+function Main() {
+  return (
+    <h1>YEA</h1>
+  );
+}
+
+function App() {
+  return (
+    Header()
   );
 }
 
