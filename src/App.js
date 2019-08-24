@@ -32,15 +32,36 @@ function Header() {
         <img class="logo" src="https://avatars3.githubusercontent.com/u/54478309?s=400&u=85f013094cb596b74805e716edb071df0a064f7e&v=4"></img>
       </header>
       <div class="places">
-        
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Mas</th>
+              <th>Lugar</th>
+              <th>Comidas disponibles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                
+              </td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>       
       </div>
     </div>
-  );
-}
-
-function Main() {
-  return (
-    <h1>YEA</h1>
   );
 }
 
