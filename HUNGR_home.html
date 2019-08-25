@@ -6,6 +6,7 @@
 
         * {
           box-sizing: border-box;
+          font-family: Helvetica;
         }
 
         .button {
@@ -144,14 +145,17 @@
 
         <ul id="myUL">
 
-          <li><a href="#">Hamburgers</a></li>
+          <li><a href="#">Hamburguesa</a></li>
           <li><a href="#">Boneless</a></li>
-          <li><a href="#">Salad</a></li>
+          <li><a href="#">Ensalada</a></li>
           <li><a href="#">Tacos</a></li>
           <li><a href="#">Nuggets</a></li>
           <li><a href="#">Pizza</a></li>
-          <li><a href="#">Wings</a></li>
+          <li><a href="#">Alitas</a></li>
           <li><a href="#">Burritos</a></li>
+          <li><a href="#">Sopa</a></li>
+          <li><a href="#">Cerveza</a></li>
+          <li><a href="#">Vino</a></li>
         
         </ul>
 
@@ -159,36 +163,36 @@
         <script>
           function myFunction() {
 
-              var input, filter, ul, li, a, i, txtValue;
+            var input, filter, ul, li, a, i, txtValue;
 
-              input = document.getElementById("myInput");
-              filter = input.value.toUpperCase();
-              
-              ul = document.getElementById("myUL");
-              li = ul.getElementsByTagName("li");
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            status[11];
 
-              if(filter.length != 0){
+            if(filter.length != 0){
 
-                for (i = 0; i < li.length; i++) {
+              for (i = 0; i < li.length; i++) {
 
-                  a = li[i].getElementsByTagName("a")[0];
-                  txtValue = a.textContent || a.innerText;
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
 
-                                    
-                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                      li[i].style.display = "";
-                  } 
-                  else {
-                      li[i].style.display = "none";
-                      //alert("a");
-                  }
+                                  
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } 
+                else {
+                  li[i].style.display = "none";
+                  // alert("a");
                 }
               }
-
+            }
           }
         </script>
 
-        <a href="./index.html"><button class="button">Give me a restaurante</button></a>
+        <a href="./index.html"><button class="button">¡Enseñame!</button></a>
      
       </div>
     </div>
