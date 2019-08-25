@@ -55,14 +55,29 @@
 }
 
 .small {
-  width: 40%;
+  width: 170px;
+  align-items: center;
 }
 
+/*img {
+  text-align: center;
+}*/
+
 .table {
-  align-items: left;
+  /*text-align: center;*/
+  align-items: center;
   margin: 2%; 
 }
 
 .row {
   margin-bottom: 2%;
+}
+
+.top {
+  margin-top: 5%;
+}
+
+.KFC {
+  width: 130px;
+  margin-left: 4%;  
 }
