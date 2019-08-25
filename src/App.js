@@ -134,13 +134,13 @@ function Header() {
   );
 }
 
-function App() {
+function App(status) {
   
-  
-
-  return (
-    Header()
-  );
+  if (status === "main") {
+    return (
+      Header()
+    );
+  }
 }
 
 export default App;
