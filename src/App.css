@@ -32,6 +32,10 @@
   }
 }
 
+.cost {
+  text-align: left; 
+}
+
 .header {
   background-color: #EE0000;
   min-height: 15vh;
@@ -80,4 +84,16 @@
 .KFC {
   width: 130px;
   margin-left: 4%;  
+}
+
+.yes {
+  color: green;
+} 
+
+.no {
+  color: red;
+}
+
+.btn {
+  margin-top: 13%;
 }
