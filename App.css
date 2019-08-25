@@ -29,6 +29,7 @@
 
 .red {
   background-color: red; 
+
 }
 
 .header {
@@ -41,8 +42,24 @@
   color: white;
 }
 
+.place {
+  margin: 3%;
+  font-family: Helvetica;
+}
+
 .main {
   background-color: red;
+}
+
+.imagens {
+  margin-top: 4%;
+  width: 40%;
+}
+
+.info {
+  padding-top: 3%;
+  font-family: Helvetica;
+  font-size: 130%
 }
 
 .logo {
@@ -66,6 +83,15 @@
   /*text-align: center;*/
   align-items: center;
   margin: 2%; 
+}
+
+.resize {
+  width: 300px;
+  margin-right: -100%;
+}
+
+.a {
+  margin-left: 0%;
 }
 
 .row {
